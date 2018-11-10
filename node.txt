@@ -1,0 +1,21 @@
+2D UFO Tutorial
+
+Unity 최상위는 GameObject이다.
+
+velocity 라는 것으로 점프를 구현할 수 있다.
+
+2개의 collider충돌
+collider와 collider가 충돌이 일어나는것 - colusion
+서로가 서로를 만났다는건 알지만 나의 운동궤적을 바꾸지 않는것 - trigger (item과 닿았다는것을 알기위해 collider를 설정해 준것이다.)
+
+픽업들을 배경과 분리하여 다 물리계산 따로
+Static or Dynamic Collider
+Collider는 있지만 Rigidbody가 없는 것을 Static Collider라고 함: 해경과 골드 Collider와 Rigidbody 모두 가진것을 Dynamic Collider로 처리함
+
+Is Kinematic : 중력을 거슬러서 운동을 하고 싶을때... 즉, 물리법칙이 아니라 정해진 규칙에 따라 움직임.
+
+game과 UI와 다르다
+game은 카메라에 따라 바뀐다
+UI는 카메라의 변경에 상관 없이 카메라에 고정되어 있다.
+
+
